@@ -4,7 +4,7 @@ def uglify(filename):
     '''Takes a short python script and removes any syntactic sugar such as
     comments, descriptive variable name and booleans and shortens them.
     This function takes a filename as input and outputs the result into a file called
-    original_ugly.py'''
+    "original"_ugly.py'''
     #Open a file and read from it
     inFile = open(filename, 'r')
     workString = inFile.read()
